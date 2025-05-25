@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
     input_file = os.path.join(base_path, "dataset_raw/winequality-red.csv")
     # Output directory untuk menyimpan data yang sudah diproses dan artefak MLflow
-    output_dir = os.path.join(base_path, "preprocessing/output")
+    output_dir = os.path.join(base_path, "preprocessing")
 
     # Tentukan nama file output untuk data yang diproses
     processed_output_file = os.path.join(output_dir, "processed_winequality-red.csv")
