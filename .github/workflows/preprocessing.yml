@@ -28,7 +28,11 @@ jobs:
 
     - name: Run Preprocessing Script
       run: |
+        set -x
         python preprocessing/automatisasi.py
+
+    - name: List Output Folder
+      run: ls -R preprocessing/output || echo "Folder belum ada atau kosong"
 
     - name: Upload Cleaned Dataset
       uses: actions/upload-artifact@v4
