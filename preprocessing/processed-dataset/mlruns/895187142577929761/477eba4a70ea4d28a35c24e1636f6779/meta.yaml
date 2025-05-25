@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Experiment_SML_Latifah/Experiment_SML_Latifah/preprocessing/output/mlruns/895187142577929761/477eba4a70ea4d28a35c24e1636f6779/artifacts
+end_time: 1748192870624
+entry_point_name: ''
+experiment_id: '895187142577929761'
+lifecycle_stage: active
+run_id: 477eba4a70ea4d28a35c24e1636f6779
+run_name: Preprocessing_Run
+run_uuid: 477eba4a70ea4d28a35c24e1636f6779
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748192870574
+status: 3
+tags: []
+user_id: runner
